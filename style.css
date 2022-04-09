@@ -54,22 +54,22 @@ body{
 }
 
 .botao{
-    border: 2px solid hsl(0, 0%, 95%);
     border-radius: 50px;
     width: 140px;
     height: 45px;
     position: relative;
     top: 90px;
     cursor: pointer;
+    background-color: hsl(0, 0%, 95%);
 }
 
 .botao a{
     display: flex;
     justify-content: center;
     margin-top: 12px;   
-    color: hsl(0, 0%, 95%);
     text-decoration: none;
     font-family: 'Lexend Deca', sans-serif;
+    
 }
 
 footer {
@@ -85,6 +85,19 @@ footer a{
     color: hsl(31, 77%, 52%);
 }
 
+.botao .link1{
+    color: hsl(31, 77%, 52%);
+}
+
+.botao .link2{
+    color: hsl(184, 100%, 22%);
+}
+
+.botao .link3{
+    color: hsl(179, 100%, 13%);
+}
+
+
 @media (max-width: 900px){
     .container {
         width: 375px;
@@ -97,22 +110,11 @@ footer a{
     .botao{
         position: initial;
         margin-top: 30px;
-        background-color: hsl(0, 0%, 95%);
+        
        
     }
 
-    .botao .link1{
-        color: hsl(31, 77%, 52%);
-    }
-
-    .botao .link2{
-        color: hsl(184, 100%, 22%);
-    }
-
-    .botao .link3{
-        color: hsl(179, 100%, 13%);
-    }
-
+   
     footer{
         display: none;
     }
